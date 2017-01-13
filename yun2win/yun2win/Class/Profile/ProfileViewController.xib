@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController">
+            <connections>
+                <outlet property="startChat" destination="qAU-bN-oqt" id="mph-Yi-gOY"/>
+                <outlet property="tableView" destination="eqL-a3-i8y" id="B1W-Y9-eO3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAU-bN-oqt" userLabel="开始交流">
+                    <frame key="frameInset" minX="20" minY="503" width="280" height="45"/>
+                    <color key="backgroundColor" red="0.0" green="0.53112980769999996" blue="0.0051274109569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="yex-gO-Bbq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="开始交流" backgroundImage="54DE79">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="startChat:" destination="-1" eventType="touchUpInside" id="HIC-63-hOO"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="20" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="eqL-a3-i8y">
+                    <frame key="frameInset" width="320" height="503"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="WEC-x5-GCA"/>
+                        <outlet property="delegate" destination="-1" id="u71-z6-Zs2"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196078431369" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qAU-bN-oqt" secondAttribute="bottom" constant="20" id="Cq7-HV-00H"/>
+                <constraint firstItem="qAU-bN-oqt" firstAttribute="top" secondItem="eqL-a3-i8y" secondAttribute="bottom" id="I82-EA-WeD"/>
+                <constraint firstItem="eqL-a3-i8y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LBR-KZ-rDd"/>
+                <constraint firstAttribute="trailing" secondItem="eqL-a3-i8y" secondAttribute="trailing" id="Wew-ui-udF"/>
+                <constraint firstItem="qAU-bN-oqt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="aVi-ke-gwk"/>
+                <constraint firstItem="eqL-a3-i8y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cFw-hK-PPg"/>
+                <constraint firstAttribute="trailing" secondItem="qAU-bN-oqt" secondAttribute="trailing" constant="20" id="eui-SY-yMg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="54DE79" width="56" height="15"/>
+    </resources>
+</document>

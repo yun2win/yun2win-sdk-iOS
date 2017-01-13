@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Y2WDatePickerController">
+            <connections>
+                <outlet property="bottom" destination="x82-Q6-OZl" id="B8j-2q-S0Z"/>
+                <outlet property="datePicker" destination="JWf-MA-pjM" id="n6g-EZ-039"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="JWf-MA-pjM">
+                    <rect key="frame" x="0.0" y="588" width="320" height="216"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.30382126297688067" blue="0.14649122090234654" alpha="1" colorSpace="calibratedRGB"/>
+                    <date key="date" timeIntervalSinceReferenceDate="495543275.26847601">
+                        <!--2016-09-14 10:54:35 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUf-kW-7vW">
+                    <rect key="frame" x="160" y="564" width="160" height="34"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="0.0" green="0.46954255705544812" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="pgs-nP-8dT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgn-bu-JBH">
+                    <rect key="frame" x="0.0" y="564" width="160" height="34"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="ikE-Re-fa0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34722521551724145" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="JWf-MA-pjM" firstAttribute="top" secondItem="zUf-kW-7vW" secondAttribute="bottom" constant="-10" id="37d-0W-ro2"/>
+                <constraint firstItem="JWf-MA-pjM" firstAttribute="top" secondItem="Tgn-bu-JBH" secondAttribute="bottom" constant="-10" id="FSR-dX-h0T"/>
+                <constraint firstItem="zUf-kW-7vW" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="KQH-t7-dio"/>
+                <constraint firstAttribute="trailing" secondItem="JWf-MA-pjM" secondAttribute="trailing" id="M7Z-dz-Ebh"/>
+                <constraint firstItem="Tgn-bu-JBH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TOe-ev-Wk3"/>
+                <constraint firstItem="Tgn-bu-JBH" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="mu7-yY-Adh"/>
+                <constraint firstAttribute="bottom" secondItem="JWf-MA-pjM" secondAttribute="bottom" constant="-236" id="x82-Q6-OZl"/>
+                <constraint firstAttribute="trailing" secondItem="zUf-kW-7vW" secondAttribute="trailing" id="x8A-Mw-Ks2"/>
+                <constraint firstItem="JWf-MA-pjM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zPV-qB-1SK"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

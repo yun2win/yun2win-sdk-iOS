@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "163b3a5e-08de-ee41-b00d-bcb5112d8e69++1004",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++1004" : {
+
+    },
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++6906" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++1004" : 9223372036854775807,
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++6906" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A02B67DD-F675-4D79-8F6B-7F29CC2E5C89",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++1004" : "yun2win\/",
+    "163b3a5e-08de-ee41-b00d-bcb5112d8e69++6906" : "yun2win\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "yun2win",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "yun2win\/yun2win.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/121.40.196.28\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "163b3a5e-08de-ee41-b00d-bcb5112d8e69++1004"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/121.40.196.28\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "163b3a5e-08de-ee41-b00d-bcb5112d8e69++6906"
+    }
+  ]
+}

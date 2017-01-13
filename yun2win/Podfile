@@ -1,0 +1,15 @@
+platform:ios,'8.0'
+
+target:yun2win do
+    use_frameworks!
+
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'Masonry'
+    pod 'DateTools'
+    pod 'Realm', '~> 1.1.0'
+    pod 'MBProgressHUD'
+    pod 'IDMPhotoBrowser'
+    pod 'JTSImageViewController'
+    pod 'INTULocationManager'
+end

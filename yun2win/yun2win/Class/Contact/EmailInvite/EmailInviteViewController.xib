@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailInviteViewController">
+            <connections>
+                <outlet property="searchBar" destination="Mxs-b4-hEc" id="gph-Ow-n6f"/>
+                <outlet property="tableView" destination="EwO-d8-O03" id="MHj-hf-aKn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EwO-d8-O03">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="g20-CR-rL6"/>
+                        <outlet property="delegate" destination="-1" id="054-7U-VFl"/>
+                    </connections>
+                </tableView>
+                <searchBar clipsSubviews="YES" contentMode="redraw" searchBarStyle="minimal" placeholder="请输入邮箱" showsCancelButton="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxs-b4-hEc">
+                    <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="obe-qa-UT5"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mxs-b4-hEc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="ICQ-5R-JLD"/>
+                <constraint firstAttribute="bottom" secondItem="EwO-d8-O03" secondAttribute="bottom" id="a08-AO-a7z"/>
+                <constraint firstItem="EwO-d8-O03" firstAttribute="top" secondItem="Mxs-b4-hEc" secondAttribute="bottom" id="buJ-je-O64"/>
+                <constraint firstItem="EwO-d8-O03" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="faK-Oa-pzz"/>
+                <constraint firstItem="Mxs-b4-hEc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kTz-bV-fFz"/>
+                <constraint firstAttribute="trailing" secondItem="Mxs-b4-hEc" secondAttribute="trailing" id="qjZ-Ut-II9"/>
+                <constraint firstAttribute="trailing" secondItem="EwO-d8-O03" secondAttribute="trailing" id="wUH-Yc-Rlw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

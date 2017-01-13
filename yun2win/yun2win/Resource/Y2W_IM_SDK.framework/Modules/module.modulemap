@@ -1,0 +1,6 @@
+framework module Y2W_IM_SDK {
+  umbrella header "Y2W_IM_SDK.h"
+
+  export *
+  module * { export * }
+}

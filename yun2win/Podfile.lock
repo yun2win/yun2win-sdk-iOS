@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugrpt (1.2.1.1)
+  - DACircularProgress (2.3.1)
+  - DateTools (1.7.0)
+  - IDMPhotoBrowser (1.10):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - INTULocationManager (4.2.0)
+  - JTSImageViewController (1.5.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MOBFoundation (2.2.3)
+  - pop (1.0.9)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - ShareSDK3 (3.5.2):
+    - ShareSDK3/ShareSDK (= 3.5.2)
+  - ShareSDK3/PlatformConnector/QQ (3.5.2)
+  - ShareSDK3/PlatformConnector/WeChat (3.5.2)
+  - ShareSDK3/ShareSDK (3.5.2)
+  - ShareSDK3/ShareSDKConfigurationFile (3.5.2)
+  - ShareSDK3/ShareSDKExtension (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/Mail (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.5.2)
+  - ShareSDK3/ShareSDKUI (3.5.2)
+  - UIViewController+Swizzled (1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Bugrpt
+  - DateTools
+  - IDMPhotoBrowser
+  - INTULocationManager
+  - JTSImageViewController
+  - Masonry
+  - MBProgressHUD
+  - MOBFoundation
+  - Realm (~> 1.1.0)
+  - SDWebImage
+  - ShareSDK3
+  - ShareSDK3/PlatformConnector/QQ
+  - ShareSDK3/PlatformConnector/WeChat
+  - ShareSDK3/ShareSDKConfigurationFile
+  - ShareSDK3/ShareSDKExtension
+  - ShareSDK3/ShareSDKPlatforms/Mail
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - UIViewController+Swizzled
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugrpt: d42a8a4492e6b77c280b89f2b3975ce9129d5eb9
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  IDMPhotoBrowser: 818fbaf9f801d16ca881ab0a076d81e063a48faa
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MOBFoundation: 2bc5cd7011a2db75cf2b3ceacb7f4227eec88f3e
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ShareSDK3: 08ed714e2bbdcd97ab60f58cb398227341dfc20a
+  UIViewController+Swizzled: 1cd9397598ede6930f94fbcac4b43d63c7aa0dbb
+
+PODFILE CHECKSUM: 9539762ea3a3e861e3369d5706f0b2b2cd17d7f5
+
+COCOAPODS: 1.1.1
